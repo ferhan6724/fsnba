@@ -1,6 +1,12 @@
+import Form from 'react-bootstrap/Form';
+
+
 const ContainerCard = () => {
-  return (
-    <div>ContainerCard</div>
+ 
+    return (
+    <>
+    <Form.Control type="search" placeholder="Search player..." />
+    </>
   )
 }
 
